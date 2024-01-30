@@ -20,8 +20,9 @@
               data-v-6ffe5bd6=""
               class="VPButton medium brand"
               :href="downloadUrl"
-              >下载体验</a
-            >
+              >下载体验
+              <span class="icon-submit iconfont"></span>
+            </a>
           </div>
           <div data-v-6ffe5bd6="" class="action">
             <a
@@ -29,16 +30,17 @@
               data-v-6ffe5bd6=""
               class="VPButton medium alt"
               href="/docs/examples.html"
-              >使用教程</a
-            >
+              >使用教程
+              <span class="icon-jiaocheng iconfont"></span>
+            </a>
           </div>
         </div>
         <div class="guyun-info">
-          <div class="item">版本：{{ version }}</div>
+          <div class="item">🚀 版本：{{ version }}</div>
           <div class="item-l">|</div>
-          <div class="item">更新：{{ updateDate }}</div>
+          <div class="item">⏲ 更新：{{ updateDate }}</div>
           <div class="item-l">|</div>
-          <div class="item">适应系统：Win10+ / MacOS</div>
+          <div class="item">OS 适应系统：Win10+ / MacOS</div>
         </div>
         <hr />
         <div>
@@ -55,6 +57,7 @@
             B站
           </a>
           <a class="icon-kuaishou3 iconfont link"> 快手 </a>
+          <a class="icon-weixingongzhonghao iconfont link"> 公众号 </a>
         </div>
       </div>
       <div data-v-6ffe5bd6="" class="image">
@@ -139,6 +142,7 @@ export default defineComponent({
   .link {
     cursor: pointer;
     font-weight: bold;
+    margin-right: 20px;
     &:active {
       color: var(--vp-home-hero-name-color);
     }

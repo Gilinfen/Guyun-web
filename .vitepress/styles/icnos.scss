@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'iconfont'; /* Project id 3860883 */
-  src: url('//at.alicdn.com/t/c/font_3860883_lhjznthuct.woff2?t=1706630693214')
+  src: url('//at.alicdn.com/t/c/font_3860883_gtc84nxme7u.woff2?t=1706632498014')
       format('woff2'),
-    url('//at.alicdn.com/t/c/font_3860883_lhjznthuct.woff?t=1706630693214')
+    url('//at.alicdn.com/t/c/font_3860883_gtc84nxme7u.woff?t=1706632498014')
       format('woff'),
-    url('//at.alicdn.com/t/c/font_3860883_lhjznthuct.ttf?t=1706630693214')
+    url('//at.alicdn.com/t/c/font_3860883_gtc84nxme7u.ttf?t=1706632498014')
       format('truetype'),
-    url('//at.alicdn.com/t/c/font_3860883_lhjznthuct.svg?t=1706630693214#iconfont')
+    url('//at.alicdn.com/t/c/font_3860883_gtc84nxme7u.svg?t=1706632498014#iconfont')
       format('svg');
 }
 
@@ -16,6 +16,14 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixingongzhonghao:before {
+  content: '\e705';
+}
+
+.icon-jiaocheng:before {
+  content: '\e666';
 }
 
 .icon-Bzhan:before {

@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'iconfont'; /* Project id 3860883 */
-  src: url('//at.alicdn.com/t/c/font_3860883_gtc84nxme7u.woff2?t=1706632498014')
+  src: url('//at.alicdn.com/t/c/font_3860883_5z37hb1u5ox.woff2?t=1706637252379')
       format('woff2'),
-    url('//at.alicdn.com/t/c/font_3860883_gtc84nxme7u.woff?t=1706632498014')
+    url('//at.alicdn.com/t/c/font_3860883_5z37hb1u5ox.woff?t=1706637252379')
       format('woff'),
-    url('//at.alicdn.com/t/c/font_3860883_gtc84nxme7u.ttf?t=1706632498014')
+    url('//at.alicdn.com/t/c/font_3860883_5z37hb1u5ox.ttf?t=1706637252379')
       format('truetype'),
-    url('//at.alicdn.com/t/c/font_3860883_gtc84nxme7u.svg?t=1706632498014#iconfont')
+    url('//at.alicdn.com/t/c/font_3860883_5z37hb1u5ox.svg?t=1706637252379#iconfont')
       format('svg');
 }
 
@@ -16,6 +16,18 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-douyu:before {
+  content: '\e610';
+}
+
+.icon-huya:before {
+  content: '\e615';
+}
+
+.icon-TIKTOK:before {
+  content: '\e8b1';
 }
 
 .icon-weixingongzhonghao:before {

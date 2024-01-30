@@ -61,7 +61,7 @@ export default {
     width: 100%;
     .left {
       width: 600px;
-      min-height: 400px;
+      // min-height: 400px;
       transition: all 0.3s ease;
       @media (max-width: 960px) {
         width: 100%;

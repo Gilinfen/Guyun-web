@@ -3,8 +3,10 @@ html {
 }
 
 :root {
-  // --vp-home-hero-name-color: #fff;
-  // --vp-c-brand-1: #fff;
+  --vp-home-hero-name-color: #d13637;
+  --vp-c-brand-1: var(--vp-home-hero-name-color);
+  --vp-c-brand-3: #d13636e3;
+
   // --vp-c-text-1: #fff;
   // --vp-c-text-2: #fff;
 }

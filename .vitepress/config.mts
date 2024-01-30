@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '使用教程', link: '/docs/examples.md' },
+      { text: '公众号', link: '/docs/logs.md' },
     ],
 
     sidebar: [

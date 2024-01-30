@@ -33,12 +33,13 @@
               >使用教程
               <span class="icon-jiaocheng iconfont"></span>
             </a>
+            <!-- <a class="icon-weixingongzhonghao iconfont link"> 公众号 </a> -->
           </div>
         </div>
         <div class="guyun-info">
           <div class="item">🚀 版本：{{ version }}</div>
           <div class="item-l">|</div>
-          <div class="item">⏲ 更新：{{ updateDate }}</div>
+          <div class="item">🔥 更新：{{ updateDate }}</div>
           <div class="item-l">|</div>
           <div class="item">OS 适应系统：Win10+ / MacOS</div>
         </div>
@@ -50,14 +51,16 @@
           >
             抖音
           </a>
+          <a class="icon-kuaishou3 iconfont link"> 快手 </a>
+          <a class="icon-TIKTOK iconfont link"> TikTok </a>
           <a
             href="https://www.bilibili.com/?spm_id_from=333.976.0.0"
             class="icon-Bzhan iconfont link"
           >
             B站
           </a>
-          <a class="icon-kuaishou3 iconfont link"> 快手 </a>
-          <a class="icon-weixingongzhonghao iconfont link"> 公众号 </a>
+          <a class="icon-douyu iconfont link"> 斗鱼 </a>
+          <a class="icon-huya iconfont link"> 虎牙 </a>
         </div>
       </div>
       <div data-v-6ffe5bd6="" class="image">
